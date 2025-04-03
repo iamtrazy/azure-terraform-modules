@@ -14,9 +14,10 @@ variable "container_name" {
   type        = string
 }
 
-variable "storage_account_name" {
-  description = "Name of the storage account"
+variable "storage_account_id" {
+  description = "ID of the storage account"
   type        = string
+  default     = null
 }
 
 variable "container_access_type" {
